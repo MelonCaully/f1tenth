@@ -1,0 +1,17 @@
+[1.659s] Invoking command in '/home/meloncaully/f1tenth_gym': PYTHONPATH=/home/meloncaully/f1tenth_gym/build/f110_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meloncaully/f1tenth_gym/install/f110_gym/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/f110_gym build --build-base /home/meloncaully/f1tenth_gym/build/f110_gym/build install --record /home/meloncaully/f1tenth_gym/build/f110_gym/install.log --single-version-externally-managed
+[2.147s] running egg_info
+[2.150s] creating build/f110_gym/f110_gym.egg-info
+[2.151s] writing build/f110_gym/f110_gym.egg-info/PKG-INFO
+[2.152s] writing dependency_links to build/f110_gym/f110_gym.egg-info/dependency_links.txt
+[2.152s] writing requirements to build/f110_gym/f110_gym.egg-info/requires.txt
+[2.153s] writing top-level names to build/f110_gym/f110_gym.egg-info/top_level.txt
+[2.163s] writing manifest file 'build/f110_gym/f110_gym.egg-info/SOURCES.txt'
+[2.167s] reading manifest file 'build/f110_gym/f110_gym.egg-info/SOURCES.txt'
+[2.169s] writing manifest file 'build/f110_gym/f110_gym.egg-info/SOURCES.txt'
+[2.169s] running build
+[2.170s] running install
+[2.172s] running install_egg_info
+[2.176s] Copying build/f110_gym/f110_gym.egg-info to /home/meloncaully/f1tenth_gym/install/f110_gym/lib/python3.8/site-packages/f110_gym-0.2.1-py3.8.egg-info
+[2.178s] running install_scripts
+[2.223s] writing list of installed files to '/home/meloncaully/f1tenth_gym/build/f110_gym/install.log'
+[2.267s] Invoked command in '/home/meloncaully/f1tenth_gym' returned '0': PYTHONPATH=/home/meloncaully/f1tenth_gym/build/f110_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meloncaully/f1tenth_gym/install/f110_gym/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/f110_gym build --build-base /home/meloncaully/f1tenth_gym/build/f110_gym/build install --record /home/meloncaully/f1tenth_gym/build/f110_gym/install.log --single-version-externally-managed

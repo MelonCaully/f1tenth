@@ -1,0 +1,89 @@
+[1.884s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.884s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbba92cf550>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbba92cf550>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fbba92477f0>)
+[3.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.397s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/meloncaully/f1tenth_gym'
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.422s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'python' and name 'f110_gym'
+[4.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.535s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 265 installed packages in /opt/ros/foxy
+[4.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.760s] Level 5:colcon.colcon_core.verb:set package 'f110_gym' build argument 'cmake_args' from command line to 'None'
+[4.760s] Level 5:colcon.colcon_core.verb:set package 'f110_gym' build argument 'cmake_target' from command line to 'None'
+[4.760s] Level 5:colcon.colcon_core.verb:set package 'f110_gym' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.760s] Level 5:colcon.colcon_core.verb:set package 'f110_gym' build argument 'cmake_clean_cache' from command line to 'False'
+[4.760s] Level 5:colcon.colcon_core.verb:set package 'f110_gym' build argument 'cmake_clean_first' from command line to 'False'
+[4.760s] Level 5:colcon.colcon_core.verb:set package 'f110_gym' build argument 'cmake_force_configure' from command line to 'False'
+[4.760s] Level 5:colcon.colcon_core.verb:set package 'f110_gym' build argument 'ament_cmake_args' from command line to 'None'
+[4.761s] Level 5:colcon.colcon_core.verb:set package 'f110_gym' build argument 'catkin_cmake_args' from command line to 'None'
+[4.761s] Level 5:colcon.colcon_core.verb:set package 'f110_gym' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.761s] DEBUG:colcon.colcon_core.verb:Building package 'f110_gym' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meloncaully/f1tenth_gym/build/f110_gym', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meloncaully/f1tenth_gym/install/f110_gym', 'merge_install': False, 'path': '/home/meloncaully/f1tenth_gym', 'symlink_install': False, 'test_result_base': None}
+[4.761s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.764s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.765s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/meloncaully/f1tenth_gym'
+[4.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.791s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.791s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meloncaully/f1tenth_gym': PYTHONPATH=/home/meloncaully/f1tenth_gym/build/f110_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meloncaully/f1tenth_gym/install/f110_gym/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/f110_gym build --build-base /home/meloncaully/f1tenth_gym/build/f110_gym/build install --record /home/meloncaully/f1tenth_gym/build/f110_gym/install.log --single-version-externally-managed
+[7.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meloncaully/f1tenth_gym' returned '0': PYTHONPATH=/home/meloncaully/f1tenth_gym/build/f110_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meloncaully/f1tenth_gym/install/f110_gym/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/f110_gym build --build-base /home/meloncaully/f1tenth_gym/build/f110_gym/build install --record /home/meloncaully/f1tenth_gym/build/f110_gym/install.log --single-version-externally-managed
+[7.061s] Level 1:colcon.colcon_core.environment:checking '/home/meloncaully/f1tenth_gym/install/f110_gym' for CMake module files
+[7.063s] Level 1:colcon.colcon_core.environment:checking '/home/meloncaully/f1tenth_gym/install/f110_gym' for CMake config files
+[7.064s] Level 1:colcon.colcon_core.environment:checking '/home/meloncaully/f1tenth_gym/install/f110_gym/lib'
+[7.065s] Level 1:colcon.colcon_core.environment:checking '/home/meloncaully/f1tenth_gym/install/f110_gym/bin'
+[7.065s] Level 1:colcon.colcon_core.environment:checking '/home/meloncaully/f1tenth_gym/install/f110_gym/lib/pkgconfig/f110_gym.pc'
+[7.065s] Level 1:colcon.colcon_core.environment:checking '/home/meloncaully/f1tenth_gym/install/f110_gym/lib/python3.8/site-packages'
+[7.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('f110_gym', 'pythonpath')
+[7.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meloncaully/f1tenth_gym/install/f110_gym/share/f110_gym/hook/pythonpath.ps1'
+[7.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meloncaully/f1tenth_gym/install/f110_gym/share/f110_gym/hook/pythonpath.dsv'
+[7.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meloncaully/f1tenth_gym/install/f110_gym/share/f110_gym/hook/pythonpath.sh'
+[7.075s] Level 1:colcon.colcon_core.environment:checking '/home/meloncaully/f1tenth_gym/install/f110_gym/bin'
+[7.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f110_gym)
+[7.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/meloncaully/f1tenth_gym/install/f110_gym/share/f110_gym/package.ps1'
+[7.079s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meloncaully/f1tenth_gym/install/f110_gym/share/f110_gym/package.dsv'
+[7.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/meloncaully/f1tenth_gym/install/f110_gym/share/f110_gym/package.sh'
+[7.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/meloncaully/f1tenth_gym/install/f110_gym/share/f110_gym/package.bash'
+[7.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/meloncaully/f1tenth_gym/install/f110_gym/share/f110_gym/package.zsh'
+[7.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meloncaully/f1tenth_gym/install/f110_gym/share/colcon-core/packages/f110_gym)
+[7.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.097s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.191s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.192s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.192s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.217s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[7.218s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meloncaully/f1tenth_gym/install/local_setup.ps1'
+[7.266s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/meloncaully/f1tenth_gym/install/_local_setup_util_ps1.py'
+[7.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meloncaully/f1tenth_gym/install/setup.ps1'
+[7.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meloncaully/f1tenth_gym/install/local_setup.sh'
+[7.275s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/meloncaully/f1tenth_gym/install/_local_setup_util_sh.py'
+[7.275s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meloncaully/f1tenth_gym/install/setup.sh'
+[7.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meloncaully/f1tenth_gym/install/local_setup.bash'
+[7.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meloncaully/f1tenth_gym/install/setup.bash'
+[7.281s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meloncaully/f1tenth_gym/install/local_setup.zsh'
+[7.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meloncaully/f1tenth_gym/install/setup.zsh'

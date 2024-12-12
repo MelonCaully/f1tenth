@@ -1,0 +1,24 @@
+[0.742s] Invoking command in '/home/mjdolan03/pure_pursuit_ws/src/pure_pursuit_pkg': PYTHONPATH=/home/mjdolan03/pure_pursuit_ws/build/pure_pursuit_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mjdolan03/pure_pursuit_ws/install/pure_pursuit_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pure_pursuit_pkg build --build-base /home/mjdolan03/pure_pursuit_ws/build/pure_pursuit_pkg/build install --record /home/mjdolan03/pure_pursuit_ws/build/pure_pursuit_pkg/install.log --install-scripts $base/lib/pure_pursuit_pkg --single-version-externally-managed install_data
+[0.955s] running egg_info
+[0.958s] writing ../../build/pure_pursuit_pkg/pure_pursuit_pkg.egg-info/PKG-INFO
+[0.960s] writing dependency_links to ../../build/pure_pursuit_pkg/pure_pursuit_pkg.egg-info/dependency_links.txt
+[0.960s] writing entry points to ../../build/pure_pursuit_pkg/pure_pursuit_pkg.egg-info/entry_points.txt
+[0.960s] writing requirements to ../../build/pure_pursuit_pkg/pure_pursuit_pkg.egg-info/requires.txt
+[0.960s] writing top-level names to ../../build/pure_pursuit_pkg/pure_pursuit_pkg.egg-info/top_level.txt
+[0.996s] reading manifest file '../../build/pure_pursuit_pkg/pure_pursuit_pkg.egg-info/SOURCES.txt'
+[0.997s] writing manifest file '../../build/pure_pursuit_pkg/pure_pursuit_pkg.egg-info/SOURCES.txt'
+[0.997s] running build
+[0.997s] running build_py
+[0.998s] copying pure_pursuit_pkg/pure_pursuit.py -> /home/mjdolan03/pure_pursuit_ws/build/pure_pursuit_pkg/build/lib/pure_pursuit_pkg
+[0.998s] running install
+[0.999s] running install_lib
+[1.000s] copying /home/mjdolan03/pure_pursuit_ws/build/pure_pursuit_pkg/build/lib/pure_pursuit_pkg/pure_pursuit.py -> /home/mjdolan03/pure_pursuit_ws/install/pure_pursuit_pkg/lib/python3.8/site-packages/pure_pursuit_pkg
+[1.001s] byte-compiling /home/mjdolan03/pure_pursuit_ws/install/pure_pursuit_pkg/lib/python3.8/site-packages/pure_pursuit_pkg/pure_pursuit.py to pure_pursuit.cpython-38.pyc
+[1.003s] running install_data
+[1.003s] running install_egg_info
+[1.005s] removing '/home/mjdolan03/pure_pursuit_ws/install/pure_pursuit_pkg/lib/python3.8/site-packages/pure_pursuit_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.005s] Copying ../../build/pure_pursuit_pkg/pure_pursuit_pkg.egg-info to /home/mjdolan03/pure_pursuit_ws/install/pure_pursuit_pkg/lib/python3.8/site-packages/pure_pursuit_pkg-0.0.0-py3.8.egg-info
+[1.006s] running install_scripts
+[1.023s] Installing pure_pursuit script to /home/mjdolan03/pure_pursuit_ws/install/pure_pursuit_pkg/lib/pure_pursuit_pkg
+[1.026s] writing list of installed files to '/home/mjdolan03/pure_pursuit_ws/build/pure_pursuit_pkg/install.log'
+[1.068s] Invoked command in '/home/mjdolan03/pure_pursuit_ws/src/pure_pursuit_pkg' returned '0': PYTHONPATH=/home/mjdolan03/pure_pursuit_ws/build/pure_pursuit_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mjdolan03/pure_pursuit_ws/install/pure_pursuit_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pure_pursuit_pkg build --build-base /home/mjdolan03/pure_pursuit_ws/build/pure_pursuit_pkg/build install --record /home/mjdolan03/pure_pursuit_ws/build/pure_pursuit_pkg/install.log --install-scripts $base/lib/pure_pursuit_pkg --single-version-externally-managed install_data
